@@ -1,0 +1,86 @@
+{
+  "00001" : {
+    "name" : " iPhone XS 64gb Black" ,
+    "price" : 799,
+    "description" : " iPhone XS Black 64gb, A12, 13mp/6mp",
+    "image" : "imgdata/xsblack.jpg",
+    "isNew" : 0
+  },
+  "00002" : {
+    "name" : " iPhone XS 64gb Silver",
+    "price" : 800,
+    "description" : " iPhone XS White 64gb, A12, 13mp/6mp",
+    "image" : "imgdata/xswhite.jpg",
+    "isNew" : 0
+  },
+  "00003" : {
+    "name" : " iPhone XS 64gb Gold",
+    "price" : 799,
+    "description" : " iPhone XS Gold 64gb, A12, 13mp/6mp",
+    "image" : "imgdata/xsgold.jpg",
+    "isNew" : 0
+  },
+  "00004" : {
+    "name" : " iPhone X 64gb Black",
+    "price" : 699,
+    "description" : " iPhone X Black 64gb , A11, 13mp/6mp",
+    "image" : "imgdata/xblack.jpg",
+    "isNew" : 0
+  },
+  "00005" : {
+    "name" : " iPhone X 64gb Silver",
+    "price" : 699,
+    "description" : " iPhone X Silver 64gb, A11, 13mp/6mp",
+    "image" : "imgdata/xwhite.jpg",
+    "isNew" : 0
+  },
+  "00006" : {
+    "name" : " iPhone 11 64gb PrRed",
+    "price" : 699,
+    "description" : " iPhone 11 64gb, A13, 12mp/12mp",
+    "image" : "imgdata/11red.png",
+    "isNew" : 1
+  },
+  "00007" : {
+    "name" : " iPhone 11 64gb Mint",
+    "price" : 699,
+    "description" : " iPhone 11 64gb, A13, 12mp/12mp",
+    "image" : "imgdata/11mint.png",
+    "isNew" : 1
+  },
+  "00008" : {
+    "name" : " iPhone 11 64gb Black",
+    "price" : 699,
+    "description" : " iPhone 11 64gb, A13, 12mp/12mp",
+    "image" : "imgdata/11black.png",
+    "isNew" : 1
+  },
+  "00009" : {
+    "name" : " iPhone 11 64gb Yellow",
+    "price" : 699,
+    "description" : " iPhone 11 64gb, A13, 12mp/12mp",
+    "image" : "imgdata/11yellow.png",
+    "isNew" : 1
+  },
+  "00010" : {
+    "name" : " iPhone 11 64gb Purple",
+    "price" : 699,
+    "description" : " iPhone 11 64gb, A13, 12mp/12mp",
+    "image" : "imgdata/11purple.png",
+    "isNew" : 1
+  },
+  "00011" : {
+    "name" : " iPhone 11 64gb White",
+    "price" : 699,
+    "description" : " iPhone 11 64gb, A13, 12mp/12mp",
+    "image" : "imgdata/11white.png",
+    "isNew" : 1
+  },
+  "00012": {
+    "name" : "iPhone 8 32gb PrRed",
+    "price": 1,
+    "description": "iPhone 8 32gb, A11, 8mp/8mp",
+    "image": "imgdata/8red.jpg",
+    "isNew": 0
+  }
+}

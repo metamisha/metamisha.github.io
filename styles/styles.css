@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+#menu{
+   background-color: lightgray;
+}
+#productList{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.product{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+.prodImg{
+    height: 200px;
+    width: 159px;
+}
+
+.carousel-item{
+    heigth: 500px;
+    width: 100%;
+}
+#secondslide{
+    color: black;
+}
+#category{
+    text-align: center;
+}
+
+.container{
+    width: 90%;!important;
+}
+#scrt{
+    width: 90%;
+
+    margin-top: 70px;
+    height: 500px;
+}
+#navbarSupportedContent{
+    width: 100%;
+}
+.descr{
+    font-size: 10pt;
+}
+#name{
+    font-size: 11pt;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+

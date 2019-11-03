@@ -1,0 +1,167 @@
+ <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product">
+                <div class="card ">
+                    <img class="card-img-top" src="https://picsum.photos/405/300" alt="Card image cap" >
+                    <div class="card-body">
+                         <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                        <h5>Price: 10$ / 247 ₴</h5>
+
+
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/404/300" alt="Card image cap">
+                   <div class="card-body">
+                        <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                        <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+        <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="product">
+           <div class="card">
+               <img class="card-img-top" src="https://picsum.photos/403/300" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                        <h5>Price: 10$ / 247 ₴</h5>
+               </div>
+               <div class="card-footer">
+                   <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+               </div>
+           </div>
+       </div>
+   </div>    <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="product">
+           <div class="card">
+               <img class="card-img-top" src="https://picsum.photos/413/300" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                        <h5>Price: 10$ / 247 ₴</h5>
+               </div>
+               <div class="card-footer">
+                   <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+               </div>
+           </div>
+       </div>
+   </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="product">
+           <div class="card">
+               <img class="card-img-top" src="https://picsum.photos/412/300" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                        <h5>Price: 10$ / 247 ₴</h5>
+               </div>
+               <div class="card-footer">
+                   <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+               </div>
+           </div>
+       </div>
+   </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/411/300" alt="Card image cap">
+                   <div class="card-body">
+                       <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                       <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm" href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/410/300" alt="Card image cap">
+                   <div class="card-body">
+                       <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                       <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm" href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/409/300" alt="Card image cap">
+                   <div class="card-body">
+                       <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                       <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/408/300" alt="Card image cap">
+                   <div class="card-body">
+                       <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                       <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/407/300" alt="Card image cap">
+                   <div class="card-body">
+                       <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                       <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="product-wrap col-12 col-sm-6 col-md-4 col-lg-3">
+           <div class="product">
+               <div class="card">
+                   <img class="card-img-top" src="https://picsum.photos/406/300" alt="Card image cap">
+                   <div class="card-body">
+                       <h5 class="card-title">Product</h5>
+                       <small class="text-muted">Description of Product</small>
+                       <h5>Price: 10$ / 247 ₴</h5>
+                   </div>
+                   <div class="card-footer">
+                       <small class="text-muted"><button type="button" class="btn btn-outline-dark btn-sm"  href="#">Add to cart</button></small>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>

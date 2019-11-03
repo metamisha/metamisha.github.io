@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="scripts/jquery.min.js"></script>
+
+    <title>HashShop.ua</title>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light flex-md" id="menu">
+    <a class="navbar-brand" href="#">
+        <svg aria-hidden="true" style="width: 20px; height: 20px;" focusable="false"
+             data-prefix="fab" data-icon="slack-hash" role="img" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 448 512" class="svg-inline--fa fa-slack-hash fa-w-14 fa-spin fa-lg">
+            <path fill="currentColor"
+                  d="M446.2 270.4c-6.2-19-26.9-29.1-46-22.9l-45.4 15.1-30.3-90 45.4-15.1c19.1-6.2 29.1-26.8 23-45.9-6.2-19-26.9-29.1-46-22.9l-45.4 15.1-15.7-47c-6.2-19-26.9-29.1-46-22.9-19.1 6.2-29.1 26.8-23 45.9l15.7 47-93.4 31.2-15.7-47c-6.2-19-26.9-29.1-46-22.9-19.1 6.2-29.1 26.8-23 45.9l15.7 47-45.3 15c-19.1 6.2-29.1 26.8-23 45.9 5 14.5 19.1 24 33.6 24.6 6.8 1 12-1.6 57.7-16.8l30.3 90L78 354.8c-19 6.2-29.1 26.9-23 45.9 5 14.5 19.1 24 33.6 24.6 6.8 1 12-1.6 57.7-16.8l15.7 47c5.9 16.9 24.7 29 46 22.9 19.1-6.2 29.1-26.8 23-45.9l-15.7-47 93.6-31.3 15.7 47c5.9 16.9 24.7 29 46 22.9 19.1-6.2 29.1-26.8 23-45.9l-15.7-47 45.4-15.1c19-6 29.1-26.7 22.9-45.7zm-254.1 47.2l-30.3-90.2 93.5-31.3 30.3 90.2-93.5 31.3z"
+                  class=""></path>
+        </svg>
+        HashShop.ua</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="category1.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Additional
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: lightgrey">
+                    <a class="dropdown-item" href="#">Shipping</a>
+                    <a class="dropdown-item" href="#">Q&A</a>
+                    <a class="dropdown-item" href="#">Size Chart</a>
+                    <a class="dropdown-item" href="#">Contacts</a>
+                    <a class="dropdown-item" href="#">Shop and learn</a>
+                    <a class="dropdown-item" href="#">Cashback & Referal systems</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Contacts</a>
+                </div>
+                <div class="">
+            <li class="nav-item active">
+                <a class="nav-link ">
+                    <button type="" class="btn btn-outline-dark btn-sm " data-toggle="modal"
+                            data-target="#minicartModal" data-art="' + key + '" id="counter">Cart
+                    </button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link push-right" id="singinbutton" href="#" data-toggle="modal"
+                   data-target="#signInModalCenter">
+                    <button type="button" class="btn btn-outline-dark btn-sm"><span
+                            style=" font-weight: bold"> Log in</span></button>
+                </a>
+            </li>
+            <li class="nav-item" id="adminPanel">
+
+            </li>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        </form>
+    </div>
+</nav>
+
+
+<div class="carousel slide" data-ride="carousel" id="slides">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="imgdata/black.jpg" alt="" width="100%" height="275px">
+            <div class="carousel-caption">
+                <h1 class="display2">Black Friday</h1>
+                <h3>Night sales!</h3>
+                <button type="button" class="btn btn-outline-light btn-lg" id="scrollButton">Shop Now!</button>
+                <button type="button" class="btn btn-outline-light btn-lg">Categories</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="imgdata/gray.jpg" alt="" width="100%" height="275px">
+            <div class="carousel-caption" id="secondslide">
+                <h1 class="display2">White list</h1>
+                <h3>Check products from the verified suppliers</h3>
+                <button type="button" class="btn btn-outline-dark btn-lg">Push me!</button>
+
+            </div>
+
+        </div>
+        <div class="carousel-item">
+            <img src="imgdata/black.jpg" alt="" width="100%" height="275px">
+            <div class="carousel-caption">
+                <h1 class="display2">Problems with shipping?</h1>
+                <h3>It`s not a problem, contact us!</h3>
+                <button type="button" class="btn btn-outline-light btn-lg" href="#">Contact us!</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<h1 id="category">
+    <i class="fab fa-apple" aria-hidden="true" id="#apple"></i>
+    <small class="text-muted">iPhone</i></small>
+</h1>
+<div class="container" id="productlist">
+    <div class="row" id="goods">
+
+    </div>
+</div>
+<div class="footer-copyright text-center py-3" id="#footerGray">© 2019 Copyright:
+    <a href="https://t.me/metamisha"> Hordin Mykhailo</a>
+</div>
+<div class="modal fade" id="signInModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h1 style="text-align: center; font-weight: bold; font-size: 50px;"><i
+                        class="fab fa-slack-hash"></i></h1>
+                <h4 style="text-align: center; font-weight: lighter; font-size: 25px; color: darkgrey">HashShop</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="usernameInput">Username or Email</label>
+                        <input type="email" class="form-control" id="usernameInput" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="passwordInput">Password</label>
+                        <input type="password" class="form-control" id="passwordInput">
+                    </div>
+                    <div id="forWrongInput">
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark" id="logInButtonConfirm">Log In</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="minicartModal" tabindex="-1" role="dialog" aria-labelledby="minicartModal"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <svg aria-hidden="true" style="width: 15px; height: 15px; margin-top: 4px"
+                     focusable="false" data-prefix="fab" data-icon="slack-hash" role="img"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                     class="svg-inline--fa fa-slack-hash fa-w-14 fa-spin fa-lg">
+                    <path fill="currentColor"
+                          d="M446.2 270.4c-6.2-19-26.9-29.1-46-22.9l-45.4 15.1-30.3-90 45.4-15.1c19.1-6.2 29.1-26.8 23-45.9-6.2-19-26.9-29.1-46-22.9l-45.4 15.1-15.7-47c-6.2-19-26.9-29.1-46-22.9-19.1 6.2-29.1 26.8-23 45.9l15.7 47-93.4 31.2-15.7-47c-6.2-19-26.9-29.1-46-22.9-19.1 6.2-29.1 26.8-23 45.9l15.7 47-45.3 15c-19.1 6.2-29.1 26.8-23 45.9 5 14.5 19.1 24 33.6 24.6 6.8 1 12-1.6 57.7-16.8l30.3 90L78 354.8c-19 6.2-29.1 26.9-23 45.9 5 14.5 19.1 24 33.6 24.6 6.8 1 12-1.6 57.7-16.8l15.7 47c5.9 16.9 24.7 29 46 22.9 19.1-6.2 29.1-26.8 23-45.9l-15.7-47 93.6-31.3 15.7 47c5.9 16.9 24.7 29 46 22.9 19.1-6.2 29.1-26.8 23-45.9l-15.7-47 45.4-15.1c19-6 29.1-26.7 22.9-45.7zm-254.1 47.2l-30.3-90.2 93.5-31.3 30.3 90.2-93.5 31.3z"
+                          class="">
+                        <h6 class="modal-title" id="exampleModalLongTitle"> Cart</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+            </div>
+            <div class="modal-body" id="modalMiniCart">
+            </div>
+
+            <div class="modal-footer">
+                <div class="text text-sm-left" id="sumOut" style="font-size: medium; text-align: left"></div>
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Back</button>
+                <button type="button" class="btn btn-outline-dark">Check out!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="scripts/shop.js"></script>
+<script src="scripts/minicart.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/d03ea086f4.js" crossorigin="anonymous"></script>
+</body>
+</html>
