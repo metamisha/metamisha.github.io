@@ -12,11 +12,12 @@ html {
     text-align: center;
     font-size: 25px;
     padding-bottom: 10px;
+    width: 100%;
 
 }
 .prodImg{
     height: 200px;
-    width: 159px;
+    width: 90%;
 }
 
 .carousel-item{
@@ -50,5 +51,28 @@ html {
     color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+.giveMeDescr {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-height: 25px;        /* fallback */
+    max-height: 77px;       /* fallback */
+    font-size: 12px;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
 }
 
