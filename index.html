@@ -8,9 +8,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <script src="scripts/jquery.min.js"></script>
-
     <title>HashShop.ua</title>
 </head>
 <body>
@@ -32,7 +30,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link active" href="category1.html">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Products</a>
@@ -119,7 +117,7 @@
 </h1>
 <div class="container" id="productlist">
     <div class="row" id="goods">
-
+        <div class="loader"></div>
     </div>
 </div>
 <div class="footer-copyright text-center py-3" id="#footerGray">© 2019 Copyright:
@@ -184,9 +182,50 @@
             </div>
 
             <div class="modal-footer">
-                <div class="text text-sm-left" id="sumOut" style="font-size: medium; text-align: left"></div>
+                <div class="text text-sm-left" id="sumOut" style="font-size: medium; text-align: left; width: 64% "></div>
+                <div style="width: 36%;">
                 <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Back</button>
-                <button type="button" class="btn btn-outline-dark">Check out!</button>
+                <button type="button" class="btn btn-outline-dark" id="checkOutButton"  data-dismiss="modal" data-toggle="modal" data-target="#checkOutForm">Check out!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="prodModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title " id="prodModalTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="prodModalBody">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="checkOutForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="not interesting">Check out!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="checkoutModal">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark" id="sendPost">Done!</button>
             </div>
         </div>
     </div>
